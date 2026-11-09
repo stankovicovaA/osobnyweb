@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7656"/>
+      <stop offset="0.52" stop-color="#ee258f"/>
+      <stop offset="1" stop-color="#c91dd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="17" fill="url(#brand)"/>
+  <text x="30" y="43" fill="#fff" font-family="Trebuchet MS, Arial, sans-serif" font-size="29" font-weight="800" text-anchor="middle">MP</text>
+  <circle cx="52" cy="43" r="3" fill="#fff02d"/>
+</svg>
