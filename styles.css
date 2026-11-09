@@ -210,6 +210,8 @@ h1 {
 
 .text-link:hover { border-color: var(--pink); }
 
+.hero-doodle { display: block; width: 112px; height: 56px; margin-top: 22px; opacity: 0.82; }
+
 .hero-art {
   position: relative;
   width: 100%;
