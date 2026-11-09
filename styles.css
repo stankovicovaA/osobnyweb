@@ -345,20 +345,16 @@ h1 {
 .portfolio-mark span { font-size: 18px; font-weight: 900; }
 .mini-footer { display: flex; justify-content: space-between; gap: 10px; font-size: 7px; font-weight: 800; letter-spacing: 0.03em; }
 
-.preview-tasks { background: #e9e5f0; color: #342b3b; }
+.preview-tasks {
+  background: linear-gradient(90deg, rgba(233, 229, 240, 0.96) 0%, rgba(233, 229, 240, 0.88) 48%, rgba(233, 229, 240, 0.38) 100%), url("img/aplikacia.jpg") center 52% / cover no-repeat;
+  color: #342b3b;
+}
 .tasks-top { color: #625e65; }
-.tasks-copy { position: relative; z-index: 1; max-width: 78%; }
+.tasks-copy { position: relative; z-index: 1; max-width: 68%; }
 .tasks-copy strong { display: block; font-size: 31px; font-weight: 800; line-height: 0.98; }
 .tasks-copy strong i { color: #c91dd0; font-style: normal; }
 .tasks-copy > span { display: block; margin-top: 9px; font-size: 9px; }
 
-.task-list { position: absolute; top: 78px; right: 18px; display: grid; gap: 8px; width: 76px; opacity: 0.82; }
-.task-list span { display: flex; height: 18px; align-items: center; gap: 5px; padding-inline: 4px; border: 1px solid #c5bfd0; border-radius: 4px; background: rgba(255, 255, 255, 0.7); }
-.task-list span::after { width: 28px; height: 3px; border-radius: 2px; background: #a49ab3; content: ""; }
-.task-list i { width: 8px; height: 8px; border: 1px solid #c91dd0; border-radius: 2px; }
-.task-list span:first-child i { background: #c91dd0; }
-.task-list span:nth-child(2) i { border-color: #26c4e8; }
-.task-list span:last-child i { border-color: #ff7656; }
 .tasks-bottom { display: flex; align-items: center; justify-content: space-between; font-size: 7px; font-weight: 800; letter-spacing: 0.05em; }
 .tasks-bottom b { display: grid; width: 25px; height: 25px; place-items: center; border-radius: 50%; background: #342b3b; color: white; font-size: 12px; }
 
@@ -500,7 +496,6 @@ h1 {
   .portfolio-main strong { font-size: 34px; }
   .portfolio-mark { width: 76px; height: 94px; }
   .tasks-copy strong { font-size: 32px; }
-  .task-list { right: 28px; }
   .festival-title { font-size: 52px; }
   .festival-sun { right: 45px; width: 148px; height: 148px; }
   .festival-sun::before, .festival-sun::after { top: 71px; width: 176px; }
