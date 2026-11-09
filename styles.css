@@ -317,32 +317,20 @@ h1 {
   isolation: isolate;
 }
 
-.preview-portfolio { background: #f2e2e5; color: #342b3b; }
+.preview-portfolio {
+  background: linear-gradient(90deg, rgba(242, 226, 229, 0.95) 0%, rgba(242, 226, 229, 0.84) 48%, rgba(242, 226, 229, 0.42) 100%), url("img/blog.jpg") center / cover no-repeat;
+  color: #342b3b;
+}
 .mini-nav, .tasks-top, .festival-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 8px; font-weight: 800; letter-spacing: 0.06em; }
 .mini-nav > span:first-child { font-size: 14px; letter-spacing: 0.02em; }
 .mini-nav i { display: block; font-size: 7px; font-style: normal; }
 
-.portfolio-main { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.portfolio-main { display: flex; align-items: center; gap: 8px; }
 .portfolio-main > div:first-child { position: relative; z-index: 1; }
 .portfolio-main small, .tasks-copy small { display: block; margin-bottom: 7px; font-size: 7px; font-weight: 800; letter-spacing: 0.08em; }
 .portfolio-main strong { display: block; font-size: 32px; font-weight: 800; line-height: 0.98; }
 .portfolio-main > div > span { display: block; margin-top: 9px; font-size: 9px; }
 
-.portfolio-mark {
-  display: grid;
-  width: 76px;
-  height: 94px;
-  flex: 0 0 auto;
-  place-items: center;
-  border: 2px solid #ee258f;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 7px 7px 0 rgba(238, 37, 143, 0.18);
-  color: #ee258f;
-  transform: rotate(7deg);
-}
-
-.portfolio-mark span { font-size: 18px; font-weight: 900; }
 .mini-footer { display: flex; justify-content: space-between; gap: 10px; font-size: 7px; font-weight: 800; letter-spacing: 0.03em; }
 
 .preview-tasks {
@@ -446,7 +434,6 @@ h1 {
   .project-grid { gap: 16px; }
   .project-preview { min-height: 220px; padding-inline: 16px; }
   .portfolio-main strong { font-size: 27px; }
-  .portfolio-mark { width: 58px; height: 74px; }
   .tasks-copy strong { font-size: 27px; }
   .festival-title { font-size: 42px; }
   .festival-sun { width: 116px; height: 116px; }
@@ -494,7 +481,6 @@ h1 {
   .project-grid { grid-template-columns: 1fr; gap: 18px; }
   .project-preview { min-height: 270px; padding: 22px 24px 20px; }
   .portfolio-main strong { font-size: 34px; }
-  .portfolio-mark { width: 76px; height: 94px; }
   .tasks-copy strong { font-size: 32px; }
   .festival-title { font-size: 52px; }
   .festival-sun { right: 45px; width: 148px; height: 148px; }
