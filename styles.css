@@ -262,6 +262,11 @@ h1 {
   letter-spacing: 0;
 }
 
+.section-title-icon { width: 25px; height: 25px; margin-right: 9px; vertical-align: 0.06em; }
+.projects-icon { color: var(--pink); }
+.about-icon { color: var(--coral); }
+.contact-icon { color: var(--yellow); }
+
 .section-lead {
   max-width: 330px;
   margin: 0 0 4px;
